@@ -20,6 +20,7 @@ def carr_scrap(links):
     option = webdriver.ChromeOptions()
     # second plane browser option
     option.add_argument("headless")
+    # Need install Chromedriver "sudo apt-get install chromium-chromedriver"
     browser = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver',options=option)
 
     product_price = {}
